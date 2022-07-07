@@ -1,0 +1,103 @@
+{
+  "socialMedia":
+  {
+    "section1": [
+      {
+        "position": false,
+        "contentLTR": true,
+        "other_design" :true,
+        "topTitle": "Social Media"
+      },
+      [
+        {
+          "title": "Markanıza uyumlu",
+          "titleSpan": "renk ve font",
+          "titleResume": "seçimleri",
+          "image": "/image/services/socialmedia/socialmedia-management.png",
+          "paragraph": "Protecting your brand is a choice. As huge advocates of Brand power, we believe it’s a critical one. With this in mind, Yalo has taken our experience working with creative and technical teams to deliver solutions that are scalable and fail proof for global brands. Our methodology and implementation approach is thoughtful and thorough. The result is always a design system manager that will provide both the structure and the process to drive your brand’s consistency and speed-to-market. InVision DSM makes it all possible.\n"
+
+        },
+        {
+          "other_design": true,
+          "title": "Proje",
+          "titleSpan": "geliştirme ve seo",
+          "titleResume": "desteği",
+          "image": "/image/services/socialmedia/socialmedia-management.png",
+          "paragraph": "Protecting your brand is a choice. As huge advocates of Brand power, we believe it’s a critical one. With this in mind, Yalo has taken our experience working with creative and technical teams to deliver solutions that are scalable and fail proof for global brands. Our methodology and implementation approach is thoughtful and thorough. The result is always a design system manager that will provide both the structure and the process to drive your brand’s consistency and speed-to-market. InVision DSM makes it all possible.\n",
+          "list": [
+            "aynen",
+            "aynen1",
+            "aynen2"
+          ]
+        },
+        {
+          "title": "Optimize edilebilir kişiselleştirilebilir",
+          "titleSpan": "admin paneli",
+          "titleResume": "",
+          "image": "/image/services/socialmedia/socialmedia-management.png",
+          "paragraph": "Protecting your brand is a choice. As huge advocates of Brand power, we believe it’s a critical one. With this in mind, Yalo has taken our experience working with creative and technical teams to deliver solutions that are scalable and fail proof for global brands. Our methodology and implementation approach is thoughtful and thorough. The result is always a design system manager that will provide both the structure and the process to drive your brand’s consistency and speed-to-market. InVision DSM makes it all possible.\n"
+        }
+      ]
+    ],
+    "section2": [
+      {
+        "position": true,
+        "contentLTR": false,
+        "other_design" :false
+      },
+      [
+        {
+          "title": "Markanızas uyumlu",
+          "titleSpan": "renk ve font",
+          "titleResume": "seçimleri",
+          "image": "/image/services/socialmedia/socialmedia-management.png",
+          "paragraph": "Protecting your brand is a choice. As huge advocates of Brand power, we believe it’s a critical one. With this in mind, Yalo has taken our experience working with creative and technical teams to deliver solutions that are scalable and fail proof for global brands. Our methodology and implementation approach is thoughtful and thorough. The result is always a design system manager that will provide both the structure and the process to drive your brand’s consistency and speed-to-market. InVision DSM makes it all possible.\n"
+        },
+        {
+          "title": "Proje",
+          "titleSpan": "geliştirme ve seo",
+          "titleResume": "desteği",
+          "image": "/image/services/socialmedia/socialmedia-management.png",
+          "paragraph": "Protecting your brand is a choice. As huge advocates of Brand power, we believe it’s a critical one. With this in mind, Yalo has taken our experience working with creative and technical teams to deliver solutions that are scalable and fail proof for global brands. Our methodology and implementation approach is thoughtful and thorough. The result is always a design system manager that will provide both the structure and the process to drive your brand’s consistency and speed-to-market. InVision DSM makes it all possible.\n"
+        },
+        {
+          "title": "Optimize edilebilir kişiselleştirilebilir",
+          "titleSpan": "admin paneli",
+          "titleResume": "",
+          "image": "/image/services/socialmedia/socialmedia-management.png",
+          "paragraph": "Protecting your brand is a choice. As huge advocates of Brand power, we believe it’s a critical one. With this in mind, Yalo has taken our experience working with creative and technical teams to deliver solutions that are scalable and fail proof for global brands. Our methodology and implementation approach is thoughtful and thorough. The result is always a design system manager that will provide both the structure and the process to drive your brand’s consistency and speed-to-market. InVision DSM makes it all possible.\n"
+        }
+      ]
+    ],
+    "section3": [
+      {
+        "position": false,
+        "contentLTR": true,
+        "other_design" :true
+      },
+      [
+        {
+          "title": "Markanızaw uyumlu",
+          "titleSpan": "renk ve font",
+          "titleResume": "seçimleri",
+          "image": "/image/services/socialmedia/socialmedia-management.png",
+          "paragraph": "Protecting your brand is a choice. As huge advocates of Brand power, we believe it’s a critical one. With this in mind, Yalo has taken our experience working with creative and technical teams to deliver solutions that are scalable and fail proof for global brands. Our methodology and implementation approach is thoughtful and thorough. The result is always a design system manager that will provide both the structure and the process to drive your brand’s consistency and speed-to-market. InVision DSM makes it all possible.\n"
+        },
+        {
+          "title": "Proje",
+          "titleSpan": "geliştirme ve seo",
+          "titleResume": "desteği",
+          "image": "/image/services/socialmedia/socialmedia-management.png",
+          "paragraph": "Protecting your brand is a choice. As huge advocates of Brand power, we believe it’s a critical one. With this in mind, Yalo has taken our experience working with creative and technical teams to deliver solutions that are scalable and fail proof for global brands. Our methodology and implementation approach is thoughtful and thorough. The result is always a design system manager that will provide both the structure and the process to drive your brand’s consistency and speed-to-market. InVision DSM makes it all possible.\n"
+        },
+        {
+          "title": "Optimize edilebilir kişiselleştirilebilir",
+          "titleSpan": "admin paneli",
+          "titleResume": "",
+          "image": "/image/services/socialmedia/socialmedia-management.png",
+          "paragraph": "Protecting your brand is a choice. As huge advocates of Brand power, we believe it’s a critical one. With this in mind, Yalo has taken our experience working with creative and technical teams to deliver solutions that are scalable and fail proof for global brands. Our methodology and implementation approach is thoughtful and thorough. The result is always a design system manager that will provide both the structure and the process to drive your brand’s consistency and speed-to-market. InVision DSM makes it all possible.\n"
+        }
+      ]
+    ]
+  }
+}
