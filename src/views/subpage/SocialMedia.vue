@@ -3,37 +3,62 @@
 
 
     <!--  Hero  -->
-    <section-hero
-    class-name="socialmedia"
-    title-top="services"
-    title="Social Media Managment"
-    text="We are Berlin's highest rated Search Marketing, Social and
+    <hero
+        class="py-5"
+        class-name="login-area"
+        title-top="services"
+        title="Social Media Managment"
+        text="We are Berlin's highest rated Search Marketing, Social and
     SEO agency on Google in 2021. Instagram, Facebook, Twitter, Linkedin, Twitch..."
-    image="/image/services/socialmedia/socialmedia-hero.png"
+        image="/image/services/socialmedia/socialmedia-hero2.png"
     />
 
 
-  <!-- Features-->
+    <!-- Features-->
 
-  <section-features
-  title="Crafting beautiful websites that"
-  title-yellow="keep your users engaged."
-  :features="features"
-  />
+    <features
+        class="pt-5"
+        title="Crafting beautiful websites that"
+        title-yellow="keep your users engaged."
+        :features="features"
+    />
 
-  <section-slider
-      :data="data.socialMedia.section1"
-  ></section-slider>
-
-
-  <section-slider
-      :data="data.socialMedia.section2"
-  ></section-slider>
+    <slider
+        :data="data.socialMedia.section1"
+    ></slider>
 
 
-  <section-slider
-      :data="data.socialMedia.section3"
-  ></section-slider>
+    <slider
+        :data="data.socialMedia.section2"
+    ></slider>
+
+
+    <slider
+        :data="data.socialMedia.section3"
+    ></slider>
+
+
+    <div class="changed-section-color">
+
+    <!-- Social Media Features -->
+    <features-3/>
+    
+    <!-- Modern -->
+    <modern/>
+
+    <!-- Team -->
+    <team/>
+
+    <!-- FAQ -->
+    <faq/>
+
+
+
+
+    </div>
+
+
+
 
 
   </div>
@@ -43,43 +68,77 @@
 
 
 import data from '@/data/subpage-socialmedia.json';
-import sectionHero from "@/components/subpage/SectionHero";
-import sectionSlider from "@/components/subpage/SectionSlider";
-import SectionFeatures from "@/components/subpage/SectionFeatures";
+import Hero from "@/components/subpage/Hero.vue";
+import Slider from "@/components/subpage/Slider.vue";
+import Features from "@/components/subpage/Features.vue";
+import Features2 from "@/components/subpage/Features2.vue";
+import Features3 from "@/components/subpage/Features3.vue";
+import Modern from "@/components/subpage/social-media/Modern.vue";
+import Team from "@/components/subpage/social-media/Team.vue";
+import Faq from "@/components/global/Faq";
+
 export default {
   name: "socialmedia",
-  components:{ SectionFeatures, sectionHero, sectionSlider },
+  components: { Hero, Features, Features2, Features3, Slider, Faq, Modern, Modern, Team },
 
   data() {
     return {
-        data,
-        features: [
-          {
-            image: "/image/services/socialmedia/socialmedia-icon1.png",
-            span1: "Workshops & ",
-            span2: "Brainstorming."
-          },
-          {
-            image: "/image/services/socialmedia/socialmedia-icon2.png",
-            span1: "Wireframing and ",
-            span2: "UX Design."
-          },
-          {
-            image: "/image/services/socialmedia/socialmedia-icon3.png",
-            span1: "Mobile and ",
-            span2: "Responsive Design."
-          },
-          {
-            image: "/image/services/socialmedia/socialmedia-icon4.png",
-            span1: "Iconography & ",
-            span2: "Type."
-          },
-          {
-            image: "/image/services/socialmedia/socialmedia-icon5.png",
-            span1: "UI Design Concepts & ",
-            span2: "Prototyping."
-          }
-        ]
+      data,
+      features: [
+        {
+          image: "/image/services/socialmedia/socialmedia-icon1.png",
+          span1: "Workshops & ",
+          span2: "Brainstorming."
+        },
+        {
+          image: "/image/services/socialmedia/socialmedia-icon2.png",
+          span1: "Wireframing and ",
+          span2: "UX Design."
+        },
+        {
+          image: "/image/services/socialmedia/socialmedia-icon3.png",
+          span1: "Mobile and ",
+          span2: "Responsive Design."
+        },
+        {
+          image: "/image/services/socialmedia/socialmedia-icon4.png",
+          span1: "Iconography & ",
+          span2: "Type."
+        },
+        {
+          image: "/image/services/socialmedia/socialmedia-icon5.png",
+          span1: "UI Design Concepts & ",
+          span2: "Prototyping."
+        }
+      ],
+
+      features2: [
+        {
+          image: "/image/services/graphic/graphic-icon6.png",
+          span1: "Kreatif ",
+          span2: "Fikir."
+        },
+        {
+          image: "/image/services/graphic/graphic-icon7.png",
+          span1: "Logo ",
+          span2: "Tasarımı."
+        },
+        {
+          image: "/image/services/graphic/graphic-icon8.png",
+          span1: "Mobil",
+          span2: "Tasarımlar"
+        },
+        {
+          image: "/image/services/graphic/graphic-icon9.png",
+          span1: "Kurumsal",
+          span2: "Kimlik"
+        },
+        {
+          image: "/image/services/graphic/graphic-icon10.png",
+          span1: "Web",
+          span2: "Tasarım"
+        }
+      ]
     };
   },
 

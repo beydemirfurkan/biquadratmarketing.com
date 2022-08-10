@@ -1,6 +1,6 @@
 <template>
 
-  <section class="work">
+  <section class="work changed-section-color">
     <div class="overlay-work"></div>
     <div class="container-fluid gx-0 overflow-hidden">
       <div class="work-wrap p-5">

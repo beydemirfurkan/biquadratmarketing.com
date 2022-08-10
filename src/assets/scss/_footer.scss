@@ -1,0 +1,47 @@
+footer {
+  padding: 50px 0;
+
+  h1 {
+    color: $navyBlue;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+
+  .footer-modal {
+    li {
+      &.active, &:hover {
+        color: $yellow!important;
+      }
+    }
+  }
+
+  .footer-list {
+    li {
+      font-size: 2.5rem;
+      color: $navyBlue;
+      font-weight: bold;
+      padding-bottom: 15px;
+      cursor: pointer;
+      position: relative;
+      z-index: 9999;
+      &:hover {
+        a {
+          color: $yellow!important;
+        }
+      }
+
+    }
+  }
+  .footer-list2 {
+    ul li {
+      padding-bottom: 20px;
+      i {
+        color: $yellow;
+      }
+    }
+  }
+}
+
+.gly-rotate-45 {
+  transform: rotate(45deg);
+}

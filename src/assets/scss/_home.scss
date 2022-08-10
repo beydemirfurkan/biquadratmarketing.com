@@ -1,0 +1,72 @@
+//@use 'global' as g;
+
+section.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url("../../../public/image/home/hero-background.png");
+}
+
+section.who {
+}
+
+section.how {
+    ul {
+        li {
+            padding-bottom: 15px;
+            font-weight: 500;
+            &.bg-brand {
+                position: relative;
+                &::after {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: -5px;
+                    width: 12%;
+                    height: 80%;
+                    background-color: $yellow;
+                    content: '';
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}
+
+section.work {
+    transition: all .4s ease-in-out;
+    .work-title {
+        h1 {
+            color: $yellow;
+            letter-spacing: 50px;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 274px;
+
+        }
+    }
+}
+
+
+section.our-team {
+    padding: 150px 0;
+    position: relative;
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .team-card {
+                background-color: rgba(#fff, 1);
+                padding: 50px;
+                width: 480px;
+                height: 600px;
+                margin: auto;
+            }
+
+        }
+
+}
+
+
+

@@ -33,32 +33,9 @@
 <script>
 export default {
   name: "how",
-  mounted() {
-    $(window).scroll(function () {
-      var objectt = $('.work');
-      var obj_height = objectt.height();
-      var windows_height = $(window).height();
+  // mounted() {
 
-      var obj_pos_top = objectt.position().top - (windows_height / 2);
-      var obj_pos_bottom = obj_pos_top + obj_height - (windows_height / 4);
-
-      var scroll_top = $(window).scrollTop();
-      var scroll_bottom = scroll_top + windows_height;
-
-
-      console.log('offset top : ', obj_pos_top);
-      console.log('offset bottom : ', obj_pos_bottom);
-      console.log('offset : ', scroll_bottom);
-
-      if (  (scroll_top >= obj_pos_top  && scroll_top <= obj_pos_bottom)){
-        $("body").addClass("color-background");
-
-      } else {
-        $("body").removeClass("color-background");
-
-      }
-    });
-  }
+  // }
 }
 </script>
 
