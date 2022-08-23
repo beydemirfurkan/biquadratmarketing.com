@@ -3,7 +3,7 @@
 
   <section class="py-5">
     <div class="container py-5">
-      <span class="text-uppercase text-black-50 d-md- ">5.For</span>
+      <span class="text-uppercase text-black-50 fw-bold">5.For</span>
         <div class="section-title pb-5">
           <h1>Our <span>client</span></h1>
         </div>

@@ -1,17 +1,3 @@
-$yellow: #f9df00;
-$navyBlue: #505570;
-$dark:  #373737;
-$blue1: #4e536d;
-$blue2 : #7981ab;
-$white : #ffffff;
-$text-bg: #f9df00;
-$text-normal: #3e435d;
-$text-grey: #bdbdbd;
-
-.navy-blue {
-    color: $navyBlue;
-}
-  
 * {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smoothdev;
@@ -59,12 +45,15 @@ ul {
     padding: 0;
 }
 
-
-
 img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+
+.pointer {
+    cursor: pointer;
 }
 
 .section-title {
@@ -91,17 +80,34 @@ img {
     color: white;
     font-size: 15px;
     font-weight: 500;
+    &:hover {
+        background-color: #e1ca06;
+    }
 }
 
 
-.padding-right {
-    padding-right: 100px;
-}
-.padding-left {
-    padding-left: 100px;
+
+
+
+@media(min-width:992px) {
+    .padding-left {
+        padding-left: 100px;
+    }
+    .padding-right {
+        padding-right: 100px;
+    }
+    
 }
 
 
+@media(min-width:768px) and (max-width:991.98px) {
+    .padding-left {
+        padding-left: 50px;
+    }
+    .padding-right {
+        padding-right: 50px;
+    }
+}
 
 .animoTextLeft {
     height: 50px;
@@ -144,7 +150,6 @@ img {
     }
 }
 
-
 @keyframes animButtonSpan {
     0% {
         transform: translateX(0);
@@ -165,41 +170,14 @@ img {
     }
 }
 
-
-.degrade {
-    font-size: 4rem;
-    background: -webkit-linear-gradient(90deg, rgba(52,56,78,1) 0%, rgba(157,166,208,0.9108018207282913) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 2rem;
-
-}
-
 .degrade-1 {
-    font-weight: 800;
-    background: -webkit-linear-gradient(120deg, rgb(81, 85, 102) 0%, rgb(139, 146, 180) 100%);
+    font-weight: 900;
+    background: -webkit-linear-gradient(90deg, rgb(57, 60, 77) 20%, rgb(117, 123, 158) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.pink-bg {
-    background-color: #ea82fa;
-}
 
-.bg-yellow {
-    background-color: $yellow;
-}
-
-.bg-yellow-title {
-    color: black;
-}
-
-.changed-body {
-    background: #373737;
-    p, h1, ul li {
-        color: white;
-    }
-}
 
 .title-top {
     font-size: 22px;
@@ -208,20 +186,21 @@ img {
     text-transform: uppercase;
 }
 
+
 .degrade {
-    font-weight: 800;
-    background: -webkit-linear-gradient(180deg, #4e536d 0%, #a8adc6 100%);
+    font-weight: 900;
+    background: -webkit-linear-gradient(28deg, #4e536d 0%, #919acb 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 5rem;
 }
 
 
-.bg-yellow-title {
-    background: $text-bg;
-    font-weight: 500;
-    text-align: center;
-    line-height: 3.7rem;
+.degrade-sub {
+    @extend .degrade;
+    font-size: 4rem;
 }
+
 
 
 .swiper-button-next:after,
@@ -232,48 +211,41 @@ img {
 
 
 .accordion-button::after {
-	background-image: url("/public/image/global/plus-lg.svg");
+	background-image: url("/public/image/global/plus-lg.svg")!important;
 }
 .accordion-button:not(.collapsed)::after {
-	background-image: url("/public/image/global/dash-lg.svg");
+	background-image: url("/public/image/global/dash-lg.svg")!important;
 
 }
 
 
-.color-background {
-    background: #242424;
-    z-index: -1;
-    transition: all .4s ease-in-out;
-    h2, p, .text-black-50  {
-        color: white!important;
+@media (min-width:576px) and (max-width:1300px) {
+    .degrade {
+        font-size: 3.5rem;
     }
-    .section-title h1 {
-        color: white!important;
-        span {
-            color: $dark!important;
-        }
-    }
+}
 
-    .btn-outline-dark {
-        color: $yellow;
-        border-color: $yellow;
-        font-weight: 500;
-        &:hover {
-            background-color: $yellow!important;
-            color: $dark!important;
-        }
+@media(max-width:575.98px) {
+    .degrade {
+        font-size: 3rem;
     }
-    input {
-        background-color: transparent!important;
-        border-bottom: 3px solid #d1d1d1!important;
+    p, span  {
+        word-break: break-word;
     }
-    ul li {
-        color: white!important;
-    }
-    .accordion-button  {
-        color: white!important;
-    }
-    .accordion-body {
-        color: rgba(255,255,255,.7)!important;
+}
+
+
+.title-sub-top {
+    color: #0e181e;
+    position: relative;
+    &::after {
+        position: absolute;
+        content: "";
+        width: 45%;
+        height: 2px;
+        background-color: #0e181e;
+        bottom: -10px;
+        left: 0;
+
     }
 }

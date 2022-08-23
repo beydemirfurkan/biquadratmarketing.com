@@ -2,9 +2,9 @@
 
   <section class="hero">
     <div class="container-fluid h-100">
-      <div class="hero-contain-wrap position-absolute top-50 start-50 translate-middle w-100 overflow-hidden">
+      <div class="hero-contain-wrap w-100">
         <div class="row justify-content-between align-items-center">
-          <div class="col-md-6"></div>
+          <div class="col-md-6 d-none d-md-inline"></div>
           <div class="col-md-6">
             <h1 class="display-3 fw-bold">Bringing Brands <br>
               to Life Digitally.</h1>
@@ -16,8 +16,8 @@
         <div>
           <img src="image/home/hero-reference.png" alt="">
         </div>
-        <div>
-          <a href="" class="btn btn-yellow rounded-pill">start your project</a>
+        <div class="position-fixed bottom-0 end-0" style="z-index: 999999;">
+          <a href="" class="btn btn-yellow rounded-0 text-dark fw-bold rounded-pill me-2 mb-2" style="border: 1px solid #fff; ">start your project</a>
         </div>
       </div>
     </div>

@@ -1,24 +1,23 @@
 <template>
-  <div class="page-socialmedia">
 
     <hero class="py-5 d-flex align-items-center justify-content-center"
           class-name="login-area"
           title-top="services"
-          title="Social Media Managment"
+          title="Creative Graphic Design"
           text="We are Berlin's highest rated Search Marketing, Social and
           SEO agency on Google in 2021. Instagram, Facebook, Twitter, Linkedin, Twitch..."
-          image="/image/services/socialmedia/socialmedia-hero2.png" />
+          image="/image/services/graphic/graphic-hero.png" />
 
-        <features class="pt-5" title="Crafting beautiful websites that" title-yellow="keep your users engaged."
-          :features="features" />
+    <features class="pt-5" title="Crafting beautiful websites that" title-yellow="keep your users engaged."
+              :features="features" />
 
-        <slider :data="data.socialMedia.section1"></slider>
-
-
-        <slider :data="data.socialMedia.section2"></slider>
+    <slider :data="data.socialMedia.section1"></slider>
 
 
-        <slider :data="data.socialMedia.section3"></slider>
+    <slider :data="data.socialMedia.section2"></slider>
+
+
+    <slider :data="data.socialMedia.section3"></slider>
 
 
     <div class="changed-section-color">
@@ -29,8 +28,7 @@
       <faq />
     </div>
 
-
-  </div>
+    <footers/>
 </template>
 
 <script>
@@ -46,11 +44,12 @@ import Modern from "@/components/subpage/social-media/Modern.vue";
 import WeDo from "@/components/subpage/social-media/WeDo.vue";
 import Team from "@/components/subpage/social-media/Team.vue";
 import Faq from "@/components/global/Faq.vue";
+import Footers from "@/layouts/footer.vue";
 
 
 export default {
   name: "socialmedia",
-  components: { Hero, Features, Features2, Features3, Slider, Faq, Modern, Team, WeDo },
+  components: { Hero, Features, Features2, Features3, Slider, Faq, Modern, Team, WeDo, Footers },
 
   data() {
     return {

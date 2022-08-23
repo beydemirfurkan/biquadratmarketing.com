@@ -2,8 +2,8 @@
 
   <section class="work changed-section-color">
     <div class="overlay-work"></div>
-    <div class="container-fluid gx-0 overflow-hidden">
-      <div class="work-wrap p-5">
+    <div class="container-fluid gx-0 overflow-hidden px-3 px-sm-0">
+      <div class="work-wrap p-sm-5">
         <div class="row justify-content-between align-items-center">
           <div class="col-md-6">
             <div class="work-title">
@@ -14,8 +14,8 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="col-8">
-              <span class="fs-6 text-black-50 fw-bold">3.WHAT</span>
+            <div class="col-md-8">
+              <span class="fs-08 text-white-50 fw-bold">3.WHAT</span>
               <div class="section-title">
                 <h1>We are experts in bringing <span>brands to life</span> dgiitally.</h1>
                 <p>BIQUADRAT is a progressive and insightful design agency, technically and creatively skilled to
@@ -30,8 +30,8 @@
 
           </div>
         </div>
-        <div class="row p-5 justify-content-between">
-          <div class="col-md-6">
+        <div class="row  py-5 px-sm-5 justify-content-between">
+          <div class="col-sm-6">
             <work-item
                 :image="('/image/home/work-image-1.png')"
                 tag1="web design"
@@ -47,7 +47,7 @@
                 text="We took on the challenge of creating the new website for tangerine, a global design pioneer."
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
 
             <work-item
                 :image="('/image/home/work-image-2.png')"

@@ -12,6 +12,16 @@ const routes = [
     name: 'socialmedia',
     component: () => import('@/views/subpage/SocialMedia'),
   },
+  {
+    path: '/graphic',
+    name: 'graphic',
+    component: () => import('@/views/subpage/Graphic'),
+  },
+  {
+    path: '/project',
+    name: 'project',
+    component: () => import('@/views/subpage/Project'),
+  },
 ]
 
 const router = createRouter({

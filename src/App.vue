@@ -2,9 +2,9 @@
 
 <template>
   <div id="app">
-    <headers/>
+    <headers class="position-absolute top-0 w-100 bg-white" style="z-index: 3333;"/>
       <router-view/>
-    <footers/>
+<!--    <footers/>-->
   </div>
 </template>
 

@@ -1,0 +1,41 @@
+{
+  "fixData":
+  {
+    "subTitle": "web design",
+    "Title": "Wolf Controllers",
+    "image": [
+      {
+        "id": 1,
+        "src": "/image/services/other/proje-1.png",
+        "alt": "social media"
+      },
+      {
+        "id": 2,
+        "src": "/image/services/other/proje-1.png",
+        "alt": "social media"
+      },
+      {
+        "id": 3,
+        "src": "/image/services/other/proje-1.png",
+        "alt": "social media"
+      },
+      {
+        "id": 4,
+        "src": "/image/services/other/proje-1.png",
+        "alt": "social media"
+      },
+      {
+        "id": 5,
+        "src": "/image/services/other/proje-1.png",
+        "alt": "social media"
+      },
+      {
+        "id": 6,
+        "src": "/image/services/other/proje-1.png",
+        "alt": "social media"
+      }
+
+    ]
+
+  }
+}

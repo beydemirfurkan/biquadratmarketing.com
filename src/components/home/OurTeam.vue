@@ -4,7 +4,7 @@
       <div class="our-team-bg">
         <img src="/image/home/our-team.png" alt="" class="w-100">
       </div>
-    <div class="container">
+    <div class="container p-3 p-md-0">
       <div class="team-card">
         <div class="section-title"><h1>A world of <span>knowledge to bank on</span></h1></div>
         <div class="team-card-inner">

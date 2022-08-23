@@ -1,12 +1,12 @@
 <template>
 
-<section class="mobile-branding py-5 my-5 vh-100" style="background-color: #f9df00;" >
-  <div class="container-fluid p-5">
+<section class="mobile-branding py-5 my-5 min-vh-100" style="background-color: #f9df00;" >
+  <div class="container-fluid px-3 px-lg-5 py-5">
       <div class="row justify-content-between align-items-center">
         <div class="col-lg-6">
           <img src="/image/home/mobile.png" alt="">
         </div>
-        <div class="col-lg-5 padding-right">
+        <div class="col-lg-5 padding-right pt-3 pt-lg-0">
           <div class="section-title">
             <h1>A creative <span class="bg-white">web design</span> and
               branding agency based in

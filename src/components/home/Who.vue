@@ -1,6 +1,6 @@
 <template>
 
-  <section class="who py-5">
+  <section class="who py-5 px-3 px-lg-0">
     <div class="container-fluid gx-0 overflow-hidden">
       <div class="row align-items-center justify-content-between">
         <div class="col-lg-6">
@@ -33,5 +33,8 @@ export default {
 </script>
 
 <style scoped>
+
+
+
 
 </style>

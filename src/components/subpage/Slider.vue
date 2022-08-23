@@ -1,7 +1,6 @@
 <template>
-  <section class="vote-area">
+  <section class="vote-area px-3 px-lg-0">
     <div class="container">
-      <h1 class="degrade mb-5 text-start"> Social Test</h1>
   <!-- Swiper -->
   <swiper
       :slides-per-view="1"
@@ -12,12 +11,13 @@
     <!--  Slider Item -->
     <swiper-slide v-for="(item, index) in data[1]" :key="index">
       <div class="vote-item">
-        <div class="row">
+        <div class="row align-items-center justify-content-between">
           <div class="img-left col-lg-6 order-1" :class="data[0].contentLTR ? 'order-lg-1' : 'order-lg-2' ">
             <img :src="item.image" alt="">
           </div>
-          <div class="title-right col-lg-6 order-2" :class="data[0].contentLTR ? 'order-lg-2' : 'order-lg-1' ">
-            <h3 class="text-start "> {{ item.title }} <span class="bg-yellow-title ">{{ item.titleSpan }}</span> {{ item.titleResume }}</h3>
+          <div class="title-right fw-500  text-normal col-lg-5 order-2" :class="data[0].contentLTR ? 'order-lg-2' : 'order-lg-1' ">
+            <h1 class="degrade-sub text-start lh-1"> {{ item.title }}</h1>
+            <h3 class="text-start fs-2 pt-4 pt-lg-0"> {{ item.title }} <span class="bg-yellow-title ">{{ item.titleSpan }}</span> {{ item.titleResume }}</h3>
             <p class="py-4 lh-lg">{{ item.paragraph }} </p>
             <ul v-if="item.other_design">
               <li v-for="(liItem, liIndex) in item.list" :key="liIndex">{{ liItem }}</li>
@@ -57,7 +57,7 @@ export default {
     return {
       onSwiper,
       onSlideChange,
-      modules: [Navigation, Scrollbar],
+      modules: [Navigation],
       // EffectCreative
     };
   },
@@ -69,17 +69,4 @@ export default {
 
 </style>
 
-<!--
-      <div class="vote-item">
-        <div class="row">
-          <div class="img-left col-lg-6 order-1" :class="item.sectionLTR ? 'order-lg-1' : 'order-lg-2' ">
-            <img :src="item.image" alt="">
-          </div>
-          <div class="title-right col-lg-6 order-2" :class="item.sectionLTR ? 'order-lg-2' : 'order-lg-1' ">
-            <h3 class="text-start "> {{ item.title }} <span class="bg-yellow-title ">{{ item.titleSpan }}</span> {{ item.titleResume }}</h3>
-            <p class="pt-4 lh-lg">{{ item.paragraph }}</p>
 
-          </div>
-        </div>
-      </div>
--->

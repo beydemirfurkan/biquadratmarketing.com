@@ -2,10 +2,10 @@
 
   <section class="faq py-5">
     <div class="container py-5">
-      <div class="row">
+      <div class="row py-5">
         <div class="col-12">
           <div class="section-title text-center">
-            <span class="top-title">size özel</span>
+            <span class="top-title" @click="hello">size özel</span>
             <h1>En çok<span> sorulan sorular</span></h1>
           </div>
           <div class="faq-content py-5">
@@ -13,7 +13,7 @@
               <div class="row">
                 <!-- Item Content -->
                 <div class="col-12 col-lg-6 mb-3" v-for="(accordion, index) in accordionData" :key="index">
-                  <div class="accordion-item rounded-0 bg-transparent">
+                  <div class="accordion-item rounded-0 bg-transparent" >
                     <h2 class="accordion-header rounded-0 bg-transparent shadow-none py-2" :id="'panelsStayOpen-'+ accordion.header_id">
                       <button class="accordion-button rounded-0 bg-transparent text-dark shadow-none" type="button"
                               data-bs-toggle="collapse" :data-bs-target="'#panelsStayOpen-'+ accordion.button_id">
@@ -48,8 +48,12 @@
 </template>
 
 <script>
+
+// import testMixins from '@/components/global/GlobalMixin.js';
+
 export default {
   name: "Faq",
+  // mixins: [testMixins],
   data() {
     return {
       accordionData: [
