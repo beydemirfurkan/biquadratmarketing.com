@@ -1,4 +1,4 @@
-# biquadrat-app
+# Digital Marketing BQM - Vue JS
 
 ## Project setup
 ```
